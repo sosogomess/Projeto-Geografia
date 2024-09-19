@@ -82,3 +82,25 @@ h3 {
     font-size: 0.9em;
     color: #ccc;
 }
+
+.menu-horizontal{
+    top: 0;
+    width: 100%;
+    background-color: rgba(238, 11, 11, 0.8);
+    color: white;
+    padding: 15px 0;
+    z-index: 1000; /* para garantir que o menu fique sobre a faixa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Logo-Senai {
+   display: flex;
+   gap: 10px;
+}
+
+.Logo-Senai img {
+    width: 250px;
+    padding: 20px;
+}
+
+
