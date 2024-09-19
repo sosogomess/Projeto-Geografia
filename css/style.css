@@ -1,5 +1,46 @@
-*{
+body{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.sobre-nos{
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.equipe {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.membro {
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 200px;;
+}
+.imagem-membro {
+    width: 150px;
+    height: auto;
+    border-radius: 90%;
+}
+
+h3 {
+    color: #e90000;
+}
+.subtitulo {
+    text-align: center;
+}
+.group img {
+    width: 400px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px;
 }
