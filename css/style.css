@@ -111,106 +111,106 @@ h3 {
 }
 
 
-/* Reseta margens e espaçamentos padrão dos navegadores */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Definição de fonte e cor de fundo global */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Cinza claro de fundo */
+    background-color: #f4f4f4; 
 }
 
-/* Estilos para o cabeçalho */
+
 header {
-    background-color: #D32F2F; /* Cor de fundo vermelho */
+    background-color: #D32F2F;
     padding: 20px;
-    display: flex; /* Layout flexível para alinhar logo, menu e busca */
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     color: white;
 }
 
-/* Ajuste de tamanho da imagem do logo */
+
 .logo img {
-    width: 100px; /* Largura do logo */
+    width: 200px;
 }
 
-/* Estilos para o menu de navegação */
+
 nav ul {
-    list-style: none; /* Remove a marcação de lista (bolinhas) */
-    display: flex; /* Deixa os itens em linha */
-    gap: 15px; /* Espaçamento entre os itens */
+    list-style: none;
+    display: flex;
+    gap: 15px; 
 }
 
-/* Estilos para os links do menu */
+
 nav ul li a {
-    color: white; /* Cor branca nos links */
-    text-decoration: none; /* Remove o sublinhado */
-    font-weight: bold; /* Negrito no texto */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Estilos para a barra de busca */
+
 .search {
     display: flex;
     gap: 10px;
 }
 
-/* Input da barra de busca */
+
 .search input {
     padding: 5px;
     border: none;
-    border-radius: 3px; /* Arredonda os cantos */
+    border-radius: 3px;
 }
 
-/* Botão da barra de busca */
+
 .search button {
     padding: 5px 10px;
-    background-color: #F44336; /* Cor de fundo vermelha */
+    background-color: #F44336; 
     border: none;
     color: white;
     cursor: pointer;
-    border-radius: 3px; /* Arredonda os cantos */
+    border-radius: 3px; 
 }
 
-/* Estilos para a seção principal (notícias) */
+
 .conteudo {
-    display: grid; /* Layout em grid (2 colunas) */
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas de largura igual */
-    gap: 20px; /* Espaçamento entre as colunas/linhas */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
     padding: 100px;
 }
 
-/* Estilo de cada item de notícia */
+
 .itens {
     background-color: white;
     padding: 20px;
-    border-radius: 8px; /* Arredonda os cantos */
+    border-radius: 8px; 
     text-align: center;
 }
 
-/* Imagens das notícias */
+
 .itens img {
-    width: 100%; /* Imagem ocupa 100% da largura do contêiner */
-    border-radius: 8px; /* Arredondar a imagem */
-    height: auto; /* Altura fixa para uniformizar */
-    object-fit: cover; /* Ajusta a imagem ao espaço sem distorcer */
+    width: 100%; 
+    border-radius: 8px; 
+    height: auto;
+    object-fit: cover; 
 }
 
-/* Títulos das notícias */
+
 .itens h3 {
     margin-top: 10px;
     font-size: 16px;
     color: #333;
 }
 
-/* Estilos para o rodapé */
+
 footer {
     background-image: url(../img/footer.png);
-    background-color: #D32F2F; /* Cor de fundo vermelho */
+    background-color: #D32F2F; 
     padding: 10px;
     text-align: center;
     color: white;
@@ -224,9 +224,9 @@ footer {
     align-content: center;
 }
 
-/* Ícones de redes sociais no rodapé */
+
 .rodape a img {
-    width: 20px; /* Tamanho dos ícones */
+    width: 20px; 
     margin-left: 10px;
 }
 
