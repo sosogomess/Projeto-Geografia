@@ -111,26 +111,124 @@ h3 {
 }
 
 
-.menu-horizontal{
-    top: 0;
-    width: 100%;
-    background-color: rgba(238, 11, 11, 0.8);
-    color: white;
-    padding: 15px 0;
-    z-index: 1000; /* para garantir que o menu fique sobre a faixa */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+/* Reseta margens e espaçamentos padrão dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.Logo-Senai {
-   display: flex;
-   gap: 10px;
+/* Definição de fonte e cor de fundo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cinza claro de fundo */
 }
 
-.Logo-Senai img {
-    width: 250px;
+/* Estilos para o cabeçalho */
+header {
+    background-color: #D32F2F; /* Cor de fundo vermelho */
     padding: 20px;
+    display: flex; /* Layout flexível para alinhar logo, menu e busca */
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
+/* Ajuste de tamanho da imagem do logo */
+.logo img {
+    width: 100px; /* Largura do logo */
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none; /* Remove a marcação de lista (bolinhas) */
+    display: flex; /* Deixa os itens em linha */
+    gap: 15px; /* Espaçamento entre os itens */
+}
+
+/* Estilos para os links do menu */
+nav ul li a {
+    color: white; /* Cor branca nos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Negrito no texto */
+}
+
+/* Estilos para a barra de busca */
+.search {
+    display: flex;
+    gap: 10px;
+}
+
+/* Input da barra de busca */
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px; /* Arredonda os cantos */
+}
+
+/* Botão da barra de busca */
+.search button {
+    padding: 5px 10px;
+    background-color: #F44336; /* Cor de fundo vermelha */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px; /* Arredonda os cantos */
+}
+
+/* Estilos para a seção principal (notícias) */
+.conteudo {
+    display: grid; /* Layout em grid (2 colunas) */
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de largura igual */
+    gap: 20px; /* Espaçamento entre as colunas/linhas */
+    padding: 100px;
+}
+
+/* Estilo de cada item de notícia */
+.itens {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px; /* Arredonda os cantos */
+    text-align: center;
+}
+
+/* Imagens das notícias */
+.itens img {
+    width: 100%; /* Imagem ocupa 100% da largura do contêiner */
+    border-radius: 8px; /* Arredondar a imagem */
+    height: auto; /* Altura fixa para uniformizar */
+    object-fit: cover; /* Ajusta a imagem ao espaço sem distorcer */
+}
+
+/* Títulos das notícias */
+.itens h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-image: url(../img/footer.png);
+    background-color: #D32F2F; /* Cor de fundo vermelho */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+/* Ícones de redes sociais no rodapé */
+.rodape a img {
+    width: 20px; /* Tamanho dos ícones */
+    margin-left: 10px;
+}
 
 .author-name{
     font-family:Arial, Helvetica, sans-serif;
