@@ -13,6 +13,8 @@ body{
 h2 {
     text-align: center;
     color: #333;
+    margin-top: 0;
+    padding: 0;
 }
 
 .equipe {
@@ -26,9 +28,6 @@ h2 {
 .membro {
     text-align: center;
     display: flex;
-    box-shadow: 8px 10px 29px -11px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: 8px 10px 29px -11px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 8px 10px 29px -11px rgba(0, 0, 0, 1);
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
@@ -83,11 +82,11 @@ h3 {
 
 .group{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
     align-content: center;
     justify-content: center;
-    align-items: center;
 }
 
 .contact-info {
@@ -126,7 +125,7 @@ body {
 
 
 header {
-    background-color: #D32F2F;
+    background-color: #e90000;
     padding: 20px;
     display: flex; 
     justify-content: space-between;
