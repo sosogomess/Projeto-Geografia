@@ -15,6 +15,7 @@ h2 {
     color: #333;
     margin-top: 0;
     padding: 0;
+    margin-top: 40px;
 }
 
 .equipe {
@@ -87,6 +88,8 @@ h3 {
     align-items: center;
     align-content: center;
     justify-content: center;
+    margin-right: 50px;
+    gap: 30px;
 }
 
 .contact-info {
