@@ -12,7 +12,7 @@ body{
 }
 h2 {
     text-align: center;
-    color: #333;
+    color: #757575;
     margin-top: 0;
     padding: 0;
     margin-top: 40px;
@@ -24,6 +24,8 @@ h2 {
     height: 800px;
     justify-content:space-around;
     flex-wrap: wrap;
+    margin-bottom: 0;
+
 }
 
 .membro {
@@ -34,13 +36,12 @@ h2 {
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     border-radius: 0.25rem;
-    max-width: 12rem;
-    min-width: 12rem;
-    min-height: 20rem;
-    max-height: 20rem;
+   
+
+   
 }
+
 .imagem-membro {
     width: 150px;
     height: auto;
@@ -58,6 +59,7 @@ h3 {
     justify-content: center;
     border-radius: 10px;
     box-shadow: 10px;
+    height: 400px;
 }
 
 .footer-background{
@@ -88,10 +90,8 @@ h3 {
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-right: 50px;
-    gap: 30px;
+    gap: 30px
 }
-
 .contact-info {
     margin-bottom: 10px;
 }
@@ -141,6 +141,9 @@ header {
     width: 200px;
 }
 
+nav ul li a:hover {
+    color: #cccccc;
+}
 
 nav ul {
     list-style: none;
@@ -235,4 +238,18 @@ footer {
 .author-name{
     font-family:Arial, Helvetica, sans-serif;
 }
+
+.Sobre-Nós {
+    margin-top: 40px;
+}
+.p-group  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+
 
