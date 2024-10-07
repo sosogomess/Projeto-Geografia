@@ -120,7 +120,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 120%;
     width: 100%;
     flex-direction: row;
     flex-wrap: nowrap;
