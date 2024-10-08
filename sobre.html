@@ -70,5 +70,36 @@
                     <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
                 </div>
         </footer>
+
+        <script>
+            // Pega os elementos do HTML
+            const searchButton = document.getElementById('searchButton');
+            const searchInput = document.getElementById('searchInput');
+            const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
+    
+            // Adiciona evento de clique no botão de busca
+            searchButton.addEventListener('click', function() {
+                const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
+    
+                // Variável para armazenar se encontrou ou não
+                let found = false;
+    
+                // Itera sobre os itens do menu
+                menuItems.forEach(function(item) {
+                    const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
+                    
+                    // Verifica se o texto do menu contém o termo de busca
+                    if (menuItemText.includes(searchTerm)) {
+                        found = true; // Marca como encontrado
+                        window.location.href = item.href; // Redireciona para a página correspondente
+                    }
+                });
+    
+                // Se não encontrar nenhum item, mostra um alerta
+                if (!found) {
+                    alert('Nenhum item encontrado');
+                }
+            });
+        </script>
 </body>
 </html>
