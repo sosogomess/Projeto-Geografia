@@ -12,7 +12,7 @@
             <img src="img/sesi-senai-junto.png" alt="Logo SESI">
             
         </div>
-        <nav>
+        <nav id="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Notícias Principais</a></li>
@@ -25,27 +25,80 @@
                 <li><a href="#">Matérias</a></li>
             </ul>
         </nav>
+        
         <div class="search">
-            <input type="text" placeholder="O que você está buscando?">
-            <button>Buscar</button>
+            <input type="text" id="searchInput" placeholder="O que você está buscando?">
+            <button id="searchButton">Buscar</button>
         </div>
+        
     </header>
 
     <main>
         <section class="conteudo-dicas">
-            <div class="dicas">
-                <h2>Pricipais Vagas de Estágio na Região:</h2>
+            <h2>Principais Vagas de Estágio na Região</h2>
+            <div class="conteudo">
+                <div class="itens">
+                    <img src="img/sesiamoreiras.jpg" alt="Sesi Amoreiras, Campinas-SP">
+                    <h3>Sesi Amoreiras, Campinas-SP</h3>
+                    <a href="#">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/unilever.jpg" alt="Unilever Valinhos, Valinhos-SP">
+                    <h3>Unilever Valinhos, Valinhos-SP</h3>
+                    <a href="#">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/bosch.jpeg" alt="Bosch, Campinas-SP">
+                    <h3>Bosch, Campinas-SP</h3>
+                    <a href="#">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/dayco.jpg" alt="Dayco, Indaiatuba-SP">
+                    <h3>Dayco, Indaiatuba-SP</h3>
+                    <a href="#">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/drogasil.jpeg" alt="Drogasil, Jundiaí-SP">
+                    <h3>Drogasil, Jundiaí-SP</h3>
+                    <a href="#">Ver Detalhes...</a>
+                </div>
             </div>
-
-            <div class="itens">
-                <img src="img/sesiamoreiras.jpg" alt="SESI Amoreiras">
-                <h3>Sesi Amoreiras, Campinas - SP</h3>
-            </div>
+    </main>
 
 
+    <script>
+        // Pega os elementos do HTML
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+        const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
+
+        // Adiciona evento de clique no botão de busca
+        searchButton.addEventListener('click', function() {
+            const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
+
+            // Variável para armazenar se encontrou ou não
+            let found = false;
+
+            // Itera sobre os itens do menu
+            menuItems.forEach(function(item) {
+                const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
+                
+                // Verifica se o texto do menu contém o termo de busca
+                if (menuItemText.includes(searchTerm)) {
+                    found = true; // Marca como encontrado
+                    window.location.href = item.href; // Redireciona para a página correspondente
+                }
+            });
+
+            // Se não encontrar nenhum item, mostra um alerta
+            if (!found) {
+                alert('Nenhum item encontrado');
+            }
+        });
+    </script>
 
 
-    
+
     <div class="footer-background">
         <div class="site-footer">
         </address>
