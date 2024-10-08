@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-/* Definição de fonte e cor de fundo global */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Cinza claro de fundo */
+    background-color: #f4f4f4; 
 }
 
 header {
@@ -19,10 +18,8 @@ header {
     color: white;
 }
 
-
-
 .logo img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
