@@ -28,6 +28,7 @@
             <button>Buscar</button>
         </div>
     </header>
+    <main>
 
         <h2>Nossa Equipe</h2>
         <div class="equipe">
@@ -57,23 +58,48 @@
                 <p> Time de Desenvolvimento </p>
             </div>
         </div>
+        
+        <div class="p-group">
+            <p> No nosso projeto, contamos com uma equipe talentosa e dedicada, formada por estudantes apaixonados pela tecnologia <br> e pela inovação. Cada membro traz habilidades únicas que, juntas, criam uma sinergia perfeita para o desenvolvimento de <br> soluções de alta qualidade. Juntos, formamos uma equipe comprometida com a excelência e a inovação. Estamos sempre <br> prontos para enfrentar novos desafios e entregar soluções  
+            </p>
+        </div>
+        </main>
+
         <footer>
+                <div class="site-footer">
+                    <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+                </div>
+        </footer>
 
-            <div class="p-group">
-                <p> No nosso projeto, contamos com uma equipe talentosa e dedicada, formada por estudantes apaixonados pela tecnologia <br> e pela inovação. Cada membro traz habilidades únicas que, juntas, criam uma sinergia perfeita para o desenvolvimento de <br> soluções de alta qualidade. Juntos, formamos uma equipe comprometida com a excelência e a inovação. Estamos sempre <br> prontos para enfrentar novos desafios e entregar soluções  
-                </p>
-            </div>
-
-
-
-
-
-    <div class="footer-background">
-        <div class="site-footer">
-        </address>
-        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
-    </div>
-    </div>
-</footer>
+        <script>
+            // Pega os elementos do HTML
+            const searchButton = document.getElementById('searchButton');
+            const searchInput = document.getElementById('searchInput');
+            const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
+    
+            // Adiciona evento de clique no botão de busca
+            searchButton.addEventListener('click', function() {
+                const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
+    
+                // Variável para armazenar se encontrou ou não
+                let found = false;
+    
+                // Itera sobre os itens do menu
+                menuItems.forEach(function(item) {
+                    const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
+                    
+                    // Verifica se o texto do menu contém o termo de busca
+                    if (menuItemText.includes(searchTerm)) {
+                        found = true; // Marca como encontrado
+                        window.location.href = item.href; // Redireciona para a página correspondente
+                    }
+                });
+    
+                // Se não encontrar nenhum item, mostra um alerta
+                if (!found) {
+                    alert('Nenhum item encontrado');
+                }
+            });
+        </script>
 </body>
 </html>
