@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 
-
+/* Definição de fonte e cor de fundo global */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; 
+    background-color: #f4f4f4; /* Cinza claro de fundo */
 }
-
 
 header {
     background-color: #e90000;
@@ -21,28 +20,31 @@ header {
 }
 
 
-.logo img {
-    width: 200px;
-}
 
-nav ul li a:hover {
-    color: #cccccc;
+.logo img {
+    width: 250px;
+    height: auto;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
+    list-style: none; 
+    display: flex; 
     gap: 15px; 
 }
 
 
 nav ul li a {
     color: white;
+    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    margin: 0 15px;
 }
 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .search {
     display: flex;
@@ -53,7 +55,7 @@ nav ul li a {
 .search input {
     padding: 5px;
     border: none;
-    border-radius: 3px;
+    border-radius: 3px; 
 }
 
 
@@ -66,12 +68,11 @@ nav ul li a {
     border-radius: 3px; 
 }
 
-
 .conteudo {
     display: grid; 
     grid-template-columns: repeat(2, 1fr); 
     gap: 20px; 
-    padding: 100px;
+    padding: 20px;
 }
 
 
@@ -86,17 +87,16 @@ nav ul li a {
 .itens img {
     width: 100%; 
     border-radius: 8px; 
-    height: auto;
+    height: auto; 
     object-fit: cover; 
 }
 
 
 .itens h3 {
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 16px;
     color: #333;
 }
-
 
 footer {
     background-image: url(../img/footer.png);
@@ -107,7 +107,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 120%;
     width: 100%;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -118,4 +118,25 @@ footer {
 .rodape a img {
     width: 20px; 
     margin-left: 10px;
+}
+
+.footer-background{
+    background-image: url(../img/footer.png);
+    color: #fff;
+    height: 120px;
+    width: 100%;
+    margin-top: 2rem;
+}
+.site-footer {
+    background-color: rgba(233, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
 }
