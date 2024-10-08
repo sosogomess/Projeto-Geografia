@@ -1,15 +1,92 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-.sobre-nos{
-    margin: auto;
+header {
+    background-color: #e90000;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo img {
+    max-width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.search input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #F44336;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.itens {
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
 }
+
+.itens img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.itens h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
 h2 {
     text-align: center;
     color: #757575;
@@ -36,10 +113,7 @@ h2 {
     align-content: center;
     justify-content: center;
     align-items: center;
-    border-radius: 0.25rem;
-   
-
-   
+    border-radius: 0.25rem;   
 }
 
 .imagem-membro {
@@ -47,210 +121,3 @@ h2 {
     height: auto;
     border-radius: 90%;
 }
-
-h3 {
-    color: #e90000;
-}
-.subtitulo {
-    text-align: center;
-}
-.group img {
-    width: 400px;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 10px;
-    height: 400px;
-}
-
-.footer-background{
-    background-image: url(../img/footer.png);
-    color: #fff;
-    height: 120px;
-    width: 100%;
-    margin-top: 2rem;
-}
-.site-footer {
-    background-color: rgba(233, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-}
-
-.group{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    gap: 30px
-}
-.contact-info {
-    margin-bottom: 10px;
-}
-
-.author-name,
-.author-email {
-    margin-bottom: 5px;
-}
-
-.email-link:hover {
-    color: #1e90ff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer-copy {
-    font-size: 0.9em;
-    color: #ccc;
-}
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; 
-}
-
-
-header {
-    background-color: #e90000;
-    padding: 20px;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
-
-.logo img {
-    width: 200px;
-}
-
-nav ul li a:hover {
-    color: #cccccc;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px; 
-}
-
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 15px;
-}
-
-
-.search {
-    display: flex;
-    gap: 10px;
-}
-
-
-.search input {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-}
-
-
-.search button {
-    padding: 5px 10px;
-    background-color: #F44336; 
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 3px; 
-}
-
-
-.conteudo {
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    padding: 100px;
-}
-
-
-.itens {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px; 
-    text-align: center;
-}
-
-
-.itens img {
-    width: 100%; 
-    border-radius: 8px; 
-    height: auto;
-    object-fit: cover; 
-}
-
-
-.itens h3 {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #333;
-}
-
-
-footer {
-    background-image: url(../img/footer.png);
-    background-color: #D32F2F; 
-    padding: 10px;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120px;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-}
-
-
-.rodape a img {
-    width: 20px; 
-    margin-left: 10px;
-}
-
-.author-name{
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.Sobre-Nós {
-    margin-top: 40px;
-}
-.p-group  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: flex-start;
-}
-
-
-
