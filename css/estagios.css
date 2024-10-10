@@ -71,7 +71,8 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    padding: 3rem;
+    height: 100vh;
 }
 
 .conteudo-estagios h2 {
