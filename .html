@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estágios</title>
+    <link rel="stylesheet" href="./css/estagios.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/sesi-senai-junto.png" alt="Logo SESI">
+            
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="noticias.html">Notícias Principais</a></li>
+                <li><a href="#">Simulados</a></li>
+                <li><a href="estagios.html">Estágios</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="carreiras.html">Carreiras</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="#">Matérias</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="O que você está buscando?">
+            <button id="searchButton">Buscar</button>
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="conteudo-estagios">
+            <h2>Principais Vagas de Estágio na Região</h2>
+            <div class="conteudo">
+                <div class="itens">
+                    <img src="img/sesiamoreiras.jpg" alt="Sesi Amoreiras, Campinas-SP">
+                    <h3>Sesi Amoreiras, Campinas-SP</h3>
+                    <a href="./estagios/amoreiras.html">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/unilever.jpg" alt="Unilever Valinhos, Valinhos-SP">
+                    <h3>Unilever Valinhos, Valinhos-SP</h3>
+                    <a href="./estagios/unilever.html">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/bosch.jpeg" alt="Bosch, Campinas-SP">
+                    <h3>Bosch, Campinas-SP</h3>
+                    <a href="./estagios/bosch.html">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/dayco.jpg" alt="Dayco, Indaiatuba-SP">
+                    <h3>Dayco, Indaiatuba-SP</h3>
+                    <a href="./estagios/dayco.html">Ver Detalhes...</a>
+                </div>
+                <div class="itens">
+                    <img src="img/drogasil.jpeg" alt="Drogasil, Jundiaí-SP">
+                    <h3>Drogasil, Jundiaí-SP</h3>
+                    <a href="./estagios/drogasil.html">Ver Detalhes...</a>
+                </div>
+            </div>
+    </main>
+
+
+    <script>
+        // Pega os elementos do HTML
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+        const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
+
+        // Adiciona evento de clique no botão de busca
+        searchButton.addEventListener('click', function() {
+            const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
+
+            // Variável para armazenar se encontrou ou não
+            let found = false;
+
+            // Itera sobre os itens do menu
+            menuItems.forEach(function(item) {
+                const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
+                
+                // Verifica se o texto do menu contém o termo de busca
+                if (menuItemText.includes(searchTerm)) {
+                    found = true; // Marca como encontrado
+                    window.location.href = item.href; // Redireciona para a página correspondente
+                }
+            });
+
+            // Se não encontrar nenhum item, mostra um alerta
+            if (!found) {
+                alert('Nenhum item encontrado');
+            }
+        });
+    </script>
+
+
+
+<footer>
+    <div class="site-footer">
+        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+    </div>
+</footer>
+</body>
+</html>
