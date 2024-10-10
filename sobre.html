@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <title>Sobre nós</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
             <img src="img/sesi-senai-junto.png" alt="Logo SESI">
-            
+
         </div>
         <nav>
             <ul>
@@ -23,7 +25,7 @@
                 <li><a href="#">Matérias</a></li>
             </ul>
         </nav>
-        
+
         <div class="search">
             <input type="text" id="searchInput" placeholder="O que você está buscando?">
             <button id="searchButton">Buscar</button>
@@ -35,75 +37,98 @@
         <h2>Nossa Equipe</h2>
         <div class="equipe">
             <div class="membro">
-                <img src="img/img.sophia.jpg" alt= "Membro 1" class="imagem-membro">
+                <img src="img/img.sophia.jpg" alt="Membro 1" class="imagem-membro">
                 <h3> Sophia Gomes</h3>
                 <p> Product Owner</p>
             </div>
             <div class="membro">
-                <img src="img/img.annaclara.jpg" alt= "Membro 2" class="imagem-membro">
+                <img src="img/img.annaclara.jpg" alt="Membro 2" class="imagem-membro">
                 <h3> Anna Fiochi</h3>
                 <p> Scrum Master </p>
             </div>
             <div class="membro">
-                <img src="img/img.joao.jpg" alt= "Membro 2" class="imagem-membro"> 
+                <img src="img/img.joao.jpg" alt="Membro 2" class="imagem-membro">
                 <h3> João Gianoni </h3>
                 <p> Time de Desenvolvimento </p>
             </div>
             <div class="membro">
-                <img src="img/img.giovanni.jpg" alt= "Membro 3" class="imagem-membro">
+                <img src="img/img.giovanni.jpg" alt="Membro 3" class="imagem-membro">
                 <h3> Giovanni Gonçalves </h3>
                 <p> Time de Desenvolvimento </p>
             </div>
             <div class="membro">
-                <img src="img/img.rayssa.jpg" alt= "Membro 4" class="imagem-membro">
+                <img src="img/img.rayssa.jpg" alt="Membro 4" class="imagem-membro">
                 <h3> Rayssa Gonçalves </h3>
                 <p> Time de Desenvolvimento </p>
             </div>
         </div>
-        
-        <div class="p-group">
-            <p> No nosso projeto, contamos com uma equipe talentosa e dedicada, formada por estudantes apaixonados pela tecnologia <br> e pela inovação. Cada membro traz habilidades únicas que, juntas, criam uma sinergia perfeita para o desenvolvimento de <br> soluções de alta qualidade. Juntos, formamos uma equipe comprometida com a excelência e a inovação. Estamos sempre <br> prontos para enfrentar novos desafios e entregar soluções  
-            </p>
+        <div class="container-grupo">
+            <div class="container-img-grupo">
+                <img src="./img/img.equipe.jpg" alt="Imagem da equipe" class="imagem-grupo">
+            </div>
+            <div class="p-group">
+                <p> No nosso projeto, contamos com uma equipe talentosa e dedicada, formada por estudantes apaixonados pela
+                    tecnologia e pela inovação. Cada membro traz habilidades únicas que, juntas, criam uma sinergia
+                    perfeita para o desenvolvimento de soluções de alta qualidade. Juntos, formamos uma equipe
+                    comprometida com a excelência e a inovação. Estamos sempre prontos para enfrentar novos desafios e
+                    entregar soluções.
+                </p>
+                <p> Nossa missão é transformar ideias em realidade, utilizando as mais recentes tecnologias e metodologias
+                    ágeis para garantir que nossos projetos sejam entregues com eficiência e precisão. Acreditamos que a
+                    colaboração e a comunicação são fundamentais para o sucesso, e trabalhamos em estreita parceria com
+                    nossos stakeholders para entender suas necessidades e superar suas expectativas.
+                </p>
+                <p> Além disso, estamos constantemente buscando aprimorar nossas habilidades e conhecimentos, participando
+                    de workshops, conferências e cursos. Essa busca contínua pelo aprendizado nos permite estar sempre
+                    atualizados com as tendências do mercado e oferecer soluções inovadoras e competitivas.
+                </p>
+                <p> Estamos orgulhosos do trabalho que realizamos e do impacto positivo que geramos. Cada projeto é uma
+                    oportunidade de crescimento e aprendizado, e estamos ansiosos para continuar nossa jornada,
+                    enfrentando novos desafios e alcançando novos patamares de excelência.
+                </p>
+            </div>
         </div>
-        </main>
 
-        <script>
-            // Pega os elementos do HTML
-            const searchButton = document.getElementById('searchButton');
-            const searchInput = document.getElementById('searchInput');
-            const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
-    
-            // Adiciona evento de clique no botão de busca
-            searchButton.addEventListener('click', function() {
-                const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
-    
-                // Variável para armazenar se encontrou ou não
-                let found = false;
-    
-                // Itera sobre os itens do menu
-                menuItems.forEach(function(item) {
-                    const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
-                    
-                    // Verifica se o texto do menu contém o termo de busca
-                    if (menuItemText.includes(searchTerm)) {
-                        found = true; // Marca como encontrado
-                        window.location.href = item.href; // Redireciona para a página correspondente
-                    }
-                });
-    
-                // Se não encontrar nenhum item, mostra um alerta
-                if (!found) {
-                    alert('Nenhum item encontrado');
+    </main>
+
+    <script>
+        // Pega os elementos do HTML
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+        const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
+
+        // Adiciona evento de clique no botão de busca
+        searchButton.addEventListener('click', function () {
+            const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
+
+            // Variável para armazenar se encontrou ou não
+            let found = false;
+
+            // Itera sobre os itens do menu
+            menuItems.forEach(function (item) {
+                const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
+
+                // Verifica se o texto do menu contém o termo de busca
+                if (menuItemText.includes(searchTerm)) {
+                    found = true; // Marca como encontrado
+                    window.location.href = item.href; // Redireciona para a página correspondente
                 }
             });
-        </script>
 
-        <footer>
-                <div class="site-footer">
-                    <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
-                </div>
-        </footer>
+            // Se não encontrar nenhum item, mostra um alerta
+            if (!found) {
+                alert('Nenhum item encontrado');
+            }
+        });
+    </script>
 
-     
+    <footer>
+        <div class="site-footer">
+            <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

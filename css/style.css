@@ -60,26 +60,6 @@ nav ul li a {
     border-radius: 3px;
 }
 
-.conteudo {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.itens {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.itens img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
-}
 
 .itens h3 {
     margin-top: 10px;
@@ -102,7 +82,6 @@ h2 {
     justify-content:space-around;
     flex-wrap: wrap;
     gap: 50px;
-    margin: 30px;
 }
 
 .membro {
@@ -130,18 +109,7 @@ h3 {
 .Sobre-Nós {
     margin-top: 40px;
 }
-.p-group  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: flex-start;
-}
 
-main {
-    min-height: 70vh;
-}
 
 footer {
     background-image: url(../img/footer.png);
@@ -150,6 +118,7 @@ footer {
     width: 100%;
     margin-top: 2rem;
 }
+
 .site-footer {
     background-color: rgba(233, 0, 0, 0.5);
     color: #fff;
@@ -164,4 +133,36 @@ footer {
     align-items: center;
 }
 
+.container-grupo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    padding: 3rem;
 
+
+}
+
+.container-img-grupo{
+    width: 40%;
+
+}
+
+.container-img-grupo img {
+    width: 70%;
+    display: block;
+    border-radius: 15%;
+
+}
+
+.p-group  {
+    width: 60%;
+    text-align: justify;
+    text-align-last: left;
+    margin-left: -10rem;
+    p + p {
+        margin-top: 1rem;
+    }
+}
