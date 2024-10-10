@@ -123,3 +123,10 @@ footer {
     align-content: center;
     align-items: center;
 }
+
+
+.imgVoltar {
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
