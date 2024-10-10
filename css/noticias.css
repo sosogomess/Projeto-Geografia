@@ -9,7 +9,14 @@ body {
     background-color: #f4f4f4; 
 }
 
-
+header {
+    background-color: #e90000;
+    padding: 25px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
 
 .logo img {
     width: 200px;

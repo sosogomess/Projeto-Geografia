@@ -1,9 +1,14 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    color: #333;
 }
 
 header {
@@ -15,48 +20,54 @@ header {
     color: white;
 }
 
+
+
 .logo img {
-    max-width: 250px;
-    height: auto;
+    width: 200px;
+}
+
+nav ul li a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: center;
 }
 
-nav ul li {
-    margin: 10px;
-}
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px;
 }
+
 
 .search {
     display: flex;
     gap: 10px;
-    margin-top: 10px;
-    margin-left: auto;
 }
 
+
 .search input {
-    padding: 10px;
+    padding: 5px;
     border: none;
     border-radius: 3px;
 }
 
+
 .search button {
-    padding: 10px 20px;
-    background-color: #F44336;
+    padding: 5px 10px;
+    background-color: #F44336; 
     border: none;
     color: white;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 3px; 
 }
 
 
