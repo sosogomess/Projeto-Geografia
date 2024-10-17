@@ -71,21 +71,10 @@ footer {
 
 h1 {
     text-align: center;
-    font-style: italic;
 }
 
 p {
-    font-style: oblique;
     text-align: center;
-}
-
-header {
-    background-color: #e90000;
-    padding: 20px;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    color: white;
 }
 
 .img-felipe {
@@ -97,8 +86,10 @@ header {
 }
 
 .foto-felipe {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .imgVoltar {
@@ -116,18 +107,34 @@ justify-content: center;
 .itens {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    width: 1000px;
-    overflow: hidden;
-    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-    max-width: 800px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
 }
 
-.TextoFelipe {
-    display: flex;
-    justify-content: center;
+.itens span{
     text-align: center;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.itens p{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
