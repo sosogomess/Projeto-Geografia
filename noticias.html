@@ -29,29 +29,32 @@
             <input type="text" id="searchInput" placeholder="O que você está buscando?">
             <button id="searchButton">Buscar</button>
         </div>
-
     </header>
     <main>
         <section class="conteudo">
             <div class="itens">
-                <img src="img/FelipeBardi.png" alt="Felipe Bardi">
-                <a href="./noticias/felipe.html"><p style="color: rgb(255, 0, 0); font-size: 20px; padding-top: 5px;"> 
-                    <h3>Felipe Bardi garante vaga no mundial 2025</h3></p></a>
+                <a href="./noticias/felipe.html">
+                    <img src="img/FelipeBardi.png" alt="Felipe Bardi">
+                    <h3>Felipe Bardi garante vaga no mundial 2025</h3>
+                </a>
             </div>
             <div class="itens">
-                <img src="img/Parceria.avif" alt="Setor metroferroviário">
-                <a href="parceria.html"><p style="color: rgb(255, 0, 0); font-size: 20px; padding-top: 5px;"> 
-                <h3>Parceria entre CCR e SENAI para formação profissional</h3></p></a>
+                <a href="parceria.html">
+                    <img src="img/Parceria.avif" alt="Setor metroferroviário">
+                    <h3>Parceria entre CCR e SENAI para formação profissional</h3>
+                </a>
             </div>
             <div class="itens">
-                <img src="img/img_64_190703_c9447582-00b3-4e20-8e3e-df1a38076adb_o.jpg" alt="Equipe de Vôlei">
-                <a href="volei.html"><p style="color: rgb(255, 0, 0); font-size: 20px; padding-top: 5px;"> 
-                <h3>Equipe de Vôlei se classifica para o Regional</h3></p></a>
+                <a href="volei.html">
+                    <img src="img/img_64_190703_c9447582-00b3-4e20-8e3e-df1a38076adb_o.jpg" alt="Equipe de Vôlei">
+                    <h3>Equipe de Vôlei se classifica para o Regional</h3>
+                </a>
             </div>
             <div class="itens">
-                <img src="img/Manutencao.avif" alt="Capacitação SENAI">
-                <a href="docentes.html"><p style="color: rgb(255, 0, 0); font-size: 20px; padding-top: 5px;"> 
-                <h3>SENAI-SP capacita 782 docentes durante recesso escolar</h3></p></a>
+                <a href="docentes.html">
+                    <img src="img/Manutencao.avif" alt="Capacitação SENAI">
+                    <h3>SENAI-SP capacita 782 docentes durante recesso escolar</h3>
+                </a>
             </div>
         </section>
     </main>
@@ -60,7 +63,7 @@
         // Pega os elementos do HTML
         const searchButton = document.getElementById('searchButton');
         const searchInput = document.getElementById('searchInput');
-        const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
+        const menuItems = document.querySelectorAll('nav ul li a'); // Seleciona todos os links do menu
 
         // Adiciona evento de clique no botão de busca
         searchButton.addEventListener('click', function() {
@@ -87,11 +90,10 @@
         });
     </script>
 
-<footer>
-    <div class="site-footer">
-    </address>
-    <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
-</div>
-</footer>
+    <footer>
+        <div class="site-footer">
+        </div>
+        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>

@@ -84,9 +84,10 @@ nav ul li a {
 .itens img {
     width: 100%; 
     border-radius: 8px; 
-    height: auto; 
+    height: 25rem; 
     object-fit: cover; 
 }
+
 
 
 .itens h3 {
