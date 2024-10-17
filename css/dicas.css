@@ -11,64 +11,6 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #e90000;
-    padding: 25px;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
-
-
-.logo img {
-    width: 200px;
-}
-
-nav ul li a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px; 
-    justify-content: center;
-}
-
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-.search {
-    display: flex;
-    gap: 10px;
-}
-
-
-.search input {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-}
-
-
-.search button {
-    padding: 5px 10px;
-    background-color: #F44336; 
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 3px; 
-}
 
 main {
     padding: 20px;
