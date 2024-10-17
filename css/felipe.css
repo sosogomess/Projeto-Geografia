@@ -111,3 +111,20 @@ justify-content: center;
     text-align: center;
     color: rgba(0, 0, 0, 0.308);
 }
+
+
+.itens {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 1000px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.TextoFelipe {
+    display: flex;
+    justify-content: center;
+}
+
+
