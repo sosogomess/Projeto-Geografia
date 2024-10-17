@@ -120,11 +120,15 @@ justify-content: center;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .TextoFelipe {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
 
 
