@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    text-align: center;
+    padding: 5rem;
+}
+
+.titulo h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.card {
+    background-color: #D41A1A;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 22%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+footer {
+    background-image: url(../img/footer.png);
+    background-color: #D32F2F; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120%;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+
+.rodape a img {
+    width: 20px; 
+    margin-left: 10px;
+}
+
+.footer-background{
+    background-image: url(../img/footer.png);
+    color: #fff;
+    height: 120px;
+    width: 100%;
+    margin-top: 2rem;
+}
+.site-footer {
+    background-color: rgba(233, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
