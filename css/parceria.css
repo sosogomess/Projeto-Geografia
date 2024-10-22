@@ -68,15 +68,17 @@ p {
     text-align: center;
 }
 
-.img-felipe {
+.img-parceria {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px rgb(255, 0, 0);
     border-radius: 10px;
+    width: 45rem;
+    height: 20rem;
 }
 
-.foto-felipe {
+.foto-parceria {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -127,6 +129,3 @@ p {
     justify-content: center;
     align-items: center;
 }
-
-
-

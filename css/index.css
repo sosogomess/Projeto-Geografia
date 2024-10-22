@@ -10,3 +10,49 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 10px gray;
+    cursor: pointer;
+}
+
+main {
+    margin: 5rem;
+    font-size: 2rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+p {
+    font-style: italic;
+}
+
+main button {
+    background-color: #d32f2f;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin: 5rem 0;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 8px black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;    
+    transition: all 0.25s;
+}
+
+.container-principal{
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3rem;
+}
