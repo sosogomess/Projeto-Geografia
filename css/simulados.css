@@ -5,7 +5,6 @@ body {
     padding: 0;
 }
 
-/* Estilos da seção de título */
 .titulo {
     text-align: center;
     padding: 5rem;
@@ -16,11 +15,10 @@ body {
     margin: 0;
 }
 
-/* Alterações na container */
 .container {
     display: flex;
-    flex-direction: column; /* Organiza em coluna */
-    align-items: center; /* Centraliza os elementos horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
     padding: 5rem;
 }
 
@@ -28,8 +26,8 @@ body {
 .card-container {
     display: flex;
     justify-content: space-around;
-    width: 100%; /* Garante que os cards ocupem a largura total */
-    max-width: 1200px; /* Limitar a largura máxima */
+    width: 100%; 
+    max-width: 1200px; 
 }
 
 .card {
@@ -37,7 +35,7 @@ body {
     color: #fff;
     padding: 3rem;
     border-radius: 10px;
-    width: 22%; /* Largura de cada card */
+    width: 22%; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -50,28 +48,27 @@ body {
     font-size: 1rem;
 }
 
-/* Estilos do botão */
+
 .button-container {
     margin-top: 40px; 
     text-align: center;
-    width: 100%; /* Garante que o botão ocupe toda a largura */
+    width: 100%; 
 }
 
 .button {
-    background-color: #d40d0d; /* Cor de fundo vermelha */
-    color: white; /* Texto branco */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    text-decoration: none; /* Remove o sublinhado do link */
-    font-size: 18px; /* Tamanho da fonte */
-    border-radius: 8px; /* Bordas arredondadas */
-    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+    background-color: #d40d0d; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: background-color 0.3s ease; 
 }
 
 .button:hover {
-    background-color: #a30a0a; /* Muda a cor ao passar o mouse */
+    background-color: #a30a0a; 
 }
 
-/* Estilo do rodapé */
+
 footer {
     background-image: url(../img/footer.png);
     background-color: #D32F2F; 
