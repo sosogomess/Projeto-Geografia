@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Simples</title>
+    <link rel="stylesheet" href="./css/simulados2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz: Teste seus conhecimentos!</h1>
+        <form id="quiz-form">
+            <div class="question" data-correct="1">
+                <h2>1. Qual é a capital do Brasil?</h2>
+                <label class="option">
+                    <input type="radio" name="answer1" value="0"> São Paulo
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer1" value="1"> Brasília
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer1" value="0"> Rio de Janeiro
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer1" value="0"> Salvador
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>2. Qual é o maior planeta do sistema solar?</h2>
+                <label class="option">
+                    <input type="radio" name="answer2" value="0"> Terra
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer2" value="1"> Júpiter
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer2" value="0"> Marte
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer2" value="0"> Saturno
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>3. Qual é o símbolo químico do Ouro?</h2>
+                <label class="option">
+                    <input type="radio" name="answer3" value="0"> Au
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer3" value="0"> Ag
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer3" value="0"> Pb
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer3" value="1"> Pb
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>4. Qual é a língua mais falada do mundo?</h2>
+                <label class="option">
+                    <input type="radio" name="answer4" value="1"> Mandarim
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer4" value="0"> Espanhol
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer4" value="0"> Inglês
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer4" value="0"> Hindi
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>5. Qual é o continente mais populoso?</h2>
+                <label class="option">
+                    <input type="radio" name="answer5" value="0"> África
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer5" value="1"> Ásia
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer5" value="0"> Europa
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer5" value="0"> América do Norte
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>6. Quem escreveu 'Dom Casmurro'?</h2>
+                <label class="option">
+                    <input type="radio" name="answer6" value="0"> Manuel Bandeira
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer6" value="1"> Machado de Assis
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer6" value="0"> Clarice Lispector
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer6" value="0"> Jorge Amado
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>7. Qual é o maior oceano do mundo?</h2>
+                <label class="option">
+                    <input type="radio" name="answer7" value="0"> Oceano Atlântico
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer7" value="1"> Oceano Pacífico
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer7" value="0"> Oceano Índico
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer7" value="0"> Oceano Ártico
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>8. Em que ano o homem pisou na Lua pela primeira vez?</h2>
+                <label class="option">
+                    <input type="radio" name="answer8" value="0"> 1965
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer8" value="1"> 1969
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer8" value="0"> 1971
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>9. Qual é a fórmula da água?</h2>
+                <label class="option">
+                    <input type="radio" name="answer9" value="0"> H2O2
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer9" value="1"> H2O
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer9" value="0"> O2H
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>10. Quem pintou a Mona Lisa?</h2>
+                <label class="option">
+                    <input type="radio" name="answer10" value="0"> Vincent Van Gogh
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer10" value="1"> Leonardo da Vinci
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer10" value="0"> Pablo Picasso
+                </label>
+            </div>
+            <button type="button" id="submit">Enviar</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
