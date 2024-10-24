@@ -29,6 +29,11 @@ h2 {
     padding: 2rem;
 }
 
+.conteudo-dicas p {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
 .itens {
     background-color: white;
     border: 1px solid #ddd;
