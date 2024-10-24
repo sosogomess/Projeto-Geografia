@@ -28,11 +28,9 @@
             <button id="searchButton">Buscar</button>
         </div>
     </header>
-
     <main>
         <section class="dicas">
             <h2>Dicas</h2>
-           
          <p>Dicas para o vestibular nunca são demais, por isso nós da equipe SESI decidimos trazer para nossos alunos uma boa forma de se preparar para este novo ciclo que está chegando.</p>
          <p></p>
             <div class="conteudo-dicas">
@@ -69,7 +67,6 @@
             </div>
         </section>
     </main>
-
     <script>
         // Pega os elementos do HTML
         const searchButton = document.getElementById('searchButton');
@@ -93,19 +90,18 @@
                     window.location.href = item.href; // Redireciona para a página correspondente
                 }
             });
-
+            
             // Se não encontrar nenhum item, mostra um alerta
             if (!found) {
                 alert('Nenhum item encontrado');
             }
         });
     </script>
-    
+
     <div class="footer-background">
         <div class="site-footer">
         </address>
         <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
     </div>
-    
 </body>
 </html>

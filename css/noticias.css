@@ -16,7 +16,6 @@ body {
     padding: 20px;
 }
 
-
 .itens {
     background-color: white;
     padding: 20px;
@@ -24,15 +23,12 @@ body {
     text-align: center;
 }
 
-
 .itens img {
     width: 100%; 
     border-radius: 8px; 
     height: 25rem; 
     object-fit: cover; 
 }
-
-
 
 .itens h3 {
     margin-top: 30px;
@@ -62,9 +58,7 @@ footer {
     align-items: center;
 }
 
-
 .rodape a img {
     width: 20px; 
     margin-left: 10px;
 }
-
