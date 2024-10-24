@@ -20,6 +20,7 @@ body {
     flex-direction: column; 
     align-items: center; 
     padding: 5rem;
+    gap: 1rem;
 }
 
 /* Configurando os cards */
@@ -45,7 +46,9 @@ body {
 }
 
 .card p {
-    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
 }
 
 .button-container {
@@ -57,10 +60,11 @@ body {
 .button {
     background-color: #d40d0d; 
     color: white; 
-    padding: 10px 20px; 
+    padding: 0.8rem; 
     text-decoration: none; 
     font-size: 18px; 
     transition: background-color 0.3s ease; 
+    border-radius: 0.7rem;
 }
 
 .button:hover {
@@ -69,18 +73,10 @@ body {
 
 footer {
     background-image: url(../img/footer.png);
-    background-color: #D32F2F; 
-    padding: 10px;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120%;
+    color: #fff;
+    height: 120px;
     width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
+    margin-top: 2rem;
 }
 
 .site-footer {
@@ -95,4 +91,9 @@ footer {
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
+}
+
+.rodape a img {
+    width: 20px; 
+    margin-left: 10px;
 }

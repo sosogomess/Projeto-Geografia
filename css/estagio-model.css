@@ -68,19 +68,19 @@ p {
     text-align: center;
 }
 
-.img-felipe {
+.img-central {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px rgb(255, 0, 0);
     border-radius: 10px;
+    width: auto;
 }
 
-.foto-felipe {
+.foto-central {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 0.5rem;
+    width: 512px;  
 }
 
 .imgVoltar {
