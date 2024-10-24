@@ -68,19 +68,21 @@ p {
     text-align: center;
 }
 
-.img-central {
+.img-parceria {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px rgb(255, 0, 0);
     border-radius: 10px;
-    width: auto;
+    width: 45rem;
+    height: 20rem;
 }
 
-.foto-central {
+.foto-parceria {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 512px;  
+    gap: 0.5rem;
 }
 
 .imgVoltar {
