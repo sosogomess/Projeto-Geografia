@@ -46,7 +46,9 @@ body {
 }
 
 .card p {
-    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
 }
 
 
