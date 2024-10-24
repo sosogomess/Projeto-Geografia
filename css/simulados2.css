@@ -1,7 +1,11 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    padding: 20px;
 }
 
 .container {
@@ -11,6 +15,8 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .option {
