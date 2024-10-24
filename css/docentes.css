@@ -28,7 +28,7 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    position: fixed; /* Footer fixo no final */
+    position: fixed;
     bottom: 0;
     left: 0;
 }
@@ -38,7 +38,7 @@ footer {
     margin-left: 10px;
 }
 
-footer {
+.footer-background{
     background-image: url(../img/footer.png);
     color: #fff;
     height: 120px;
@@ -68,26 +68,23 @@ p {
     text-align: center;
 }
 
-.img-central {
+.img-docentes {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px rgb(255, 0, 0);
     border-radius: 10px;
-    width: 512px;
-    height: 400px;
-    object-fit: cover;
+    width: 45rem;
+    height: 31rem;
 }
 
-.foto-central {
+.foto-docentes {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 0.5rem;
-    width: 512px;
-    height: 512px;
-    
 }
+
 .imgVoltar {
     width: 20px;
     height: 20px;
@@ -130,8 +127,4 @@ p {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
 }
-
-
-

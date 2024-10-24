@@ -4,7 +4,6 @@ body {
     padding: 20px;
 }
 
-
 .container {
     max-width: 600px;
     margin: auto;
@@ -13,7 +12,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .option {
     display: block;
@@ -24,18 +22,15 @@ body {
     cursor: pointer;
 }
 
-
 .option.correct {
     background-color: #d4edda;
     border-color: #c3e6cb;
 }
 
-
 .option.wrong {
     background-color: #f8d7da;
     border-color: #f5c6cb;
 }
-
 
 button {
     padding: 10px 20px;
@@ -46,11 +41,9 @@ button {
     cursor: pointer;
 }
 
-
 button:hover {
     background-color: #0056b3;
 }
-
 
 .container-main{
     display: flex;

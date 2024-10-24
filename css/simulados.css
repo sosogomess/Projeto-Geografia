@@ -46,9 +46,10 @@ body {
 }
 
 .card p {
-    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
 }
-
 
 .button-container {
     margin-top: 40px; 

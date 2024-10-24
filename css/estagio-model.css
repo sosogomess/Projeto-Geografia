@@ -6,77 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #e90000;
-    padding: 20px;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+    background-color: #f4f4f4; 
 }
 
 .logo img {
     width: 200px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-.vaga-info {
-    background-color: #b71c1c;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-.vaga-info h2 {
-    margin-bottom: 20px;
-}
-
-.vaga-info ul {
-    list-style: none;
-    margin-top: 10px;
-}
-
-.vaga-info ul li {
-    margin-bottom: 10px;
-}
-
-.vaga-info a {
-    color: #ffccbc;
-    text-decoration: none;
-}
-
-.vaga-info img{
-    width: 100%;
-}
-
-.vaga-info ul li .icon  {
-    width: 30px;
-    margin-right: 10px;
+    height: auto;
 }
 
 footer {
@@ -125,8 +60,69 @@ footer {
     align-items: center;
 }
 
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.img-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px rgb(255, 0, 0);
+    border-radius: 10px;
+    width: auto;
+}
+
+.foto-central {
+    display: flex;
+    flex-direction: column;
+    width: 512px;  
+}
+
 .imgVoltar {
     width: 20px;
     height: 20px;
     display: flex;
+}
+
+.sonhos {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.itens {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.itens span{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.itens p{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }

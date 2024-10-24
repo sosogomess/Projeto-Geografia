@@ -14,13 +14,13 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="noticias.html">Notícias Principais</a></li>
-                <li><a href="simulados.html">Simulados</a></li>
-                <li><a href="estagios.html">Carreiras</a></li>
-                <li><a href="dicas.html">Dicas</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="disciplina.html">Matérias</a></li>
+                <li><a href="./../index.html">Home</a></li>
+                <li><a href="../noticias.html">Notícias Principais</a></li>
+                <li><a href="../simulados.html">Simulados</a></li>
+                <li><a href="../estagios.html">Carreiras</a></li>
+                <li><a href="../dicas.html">Dicas</a></li>
+                <li><a href="../sobre.html">Sobre Nós</a></li>
+                <li><a href="#">Matérias</a></li>
             </ul>
         </nav>
         <div class="search">
@@ -28,7 +28,6 @@
             <button id="searchButton">Buscar</button>
         </div>
     </header>
-
     <main>
         <section class="dicas">
             <h2>Dicas</h2>
@@ -68,7 +67,6 @@
             </div>
         </section>
     </main>
-
     <script>
         // Pega os elementos do HTML
         const searchButton = document.getElementById('searchButton');
@@ -92,19 +90,18 @@
                     window.location.href = item.href; // Redireciona para a página correspondente
                 }
             });
-
+            
             // Se não encontrar nenhum item, mostra um alerta
             if (!found) {
                 alert('Nenhum item encontrado');
             }
         });
     </script>
-    
+
     <div class="footer-background">
         <div class="site-footer">
         </address>
         <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
     </div>
-    
 </body>
 </html>
