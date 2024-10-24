@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SESI SENAI</title>
-    <link rel="stylesheet" href="css/noticias.css">
-    <link rel="stylesheet" href="css/header.css">
+    <title>Dicas</title>
+    <link rel="stylesheet" href="css/dicas.css">
+    <link rel="stylesheet" href="./css/header.css">
 </head>
 <body>
     <header>
@@ -28,40 +28,16 @@
             <button id="searchButton">Buscar</button>
         </div>
     </header>
+
     <main>
-        <section class="conteudo">
-            <div class="itens">
-                <a href="./noticias/felipe.html">
-                    <img src="img/FelipeBardi.png" alt="Felipe Bardi">
-                    <h3>Felipe Bardi garante vaga no mundial 2025</h3>
-                </a>
-            </div>
-            <div class="itens">
-                <a href="./noticias/parceria.html">
-                    <img src="img/Parceria.avif" alt="Setor metroferroviário">
-                    <h3>Parceria entre CCR e SENAI para formação profissional</h3>
-                </a>
-            </div>
-            <div class="itens">
-                <a href="./noticias/volei.html">
-                    <img src="img/img_64_190703_c9447582-00b3-4e20-8e3e-df1a38076adb_o.jpg" alt="Equipe de Vôlei">
-                    <h3>Equipe de Vôlei se classifica para o Regional</h3>
-                </a>
-            </div>
-            <div class="itens">
-                <a href="./noticias/docentes.html">
-                    <img src="img/Manutencao.avif" alt="Capacitação SENAI">
-                    <h3>SENAI-SP capacita 782 docentes durante recesso escolar</h3>
-                </a>
-            </div>
-        </section>
+       
     </main>
 
     <script>
         // Pega os elementos do HTML
         const searchButton = document.getElementById('searchButton');
         const searchInput = document.getElementById('searchInput');
-        const menuItems = document.querySelectorAll('nav ul li a'); // Seleciona todos os links do menu
+        const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
 
         // Adiciona evento de clique no botão de busca
         searchButton.addEventListener('click', function() {
@@ -87,14 +63,12 @@
             }
         });
     </script>
-
-    <footer>
+    
+    <div class="footer-background">
         <div class="site-footer">
-        </div>
+        </address>
         <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
-    </footer>
+    </div>
+    
 </body>
 </html>
-
-
-
