@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background-image: url(../img/footer.png);
+    background-color: #D32F2F; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    position: fixed; /* Footer fixo no final */
+    bottom: 0;
+    left: 0;
+}
+
+
+.rodape a img {
+    width: 20px; 
+    margin-left: 10px;
+}
+
+.footer-background{
+    background-image: url(../img/footer.png);
+    color: #fff;
+    height: 120px;
+    width: 100%;
+    margin-top: 2rem;
+}
+.site-footer {
+    background-color: rgba(233, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.img-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px rgb(255, 0, 0);
+    border-radius: 10px;
+    width: auto;
+}
+
+.foto-central {
+    display: flex;
+    flex-direction: column;
+    width: 512px;  
+}
+
+.imgVoltar {
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.sonhos {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+
+.itens {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.itens span{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.itens p{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.container-list li{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.container-list li p{
+    line-height: 1.5rem;
+}
