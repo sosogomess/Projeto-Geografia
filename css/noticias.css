@@ -40,6 +40,10 @@ body {
     color: #333;
 }
 
+.rodape a img {
+    width: 20px; 
+    margin-left: 10px;
+}
 footer {
     background-image: url(../img/footer.png);
     color: #fff;
@@ -60,11 +64,5 @@ footer {
     flex-wrap: nowrap;
     align-content: center;
     align-items: center;
-}
-
-
-.rodape a img {
-    width: 20px; 
-    margin-left: 10px;
 }
 
