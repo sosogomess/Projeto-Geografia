@@ -28,7 +28,6 @@
             <input type="text" id="searchInput" placeholder="O que você está buscando?">
             <button id="searchButton">Buscar</button>
         </div>
-
     </header>
     <div class="container-principal">
         <div class="itens">
@@ -43,18 +42,15 @@
             </p>
         </div>
         </div>
-     
-
         <footer>
             <div class="site-footer">
                 <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
             </div>
         </footer>
+        <script>
+            document.getElementById("backBtn").addEventListener("click", function(){
+              history.back();
+            });
+          </script>
     </body>
-
-    <script>
-        document.getElementById("backBtn").addEventListener("click", function(){
-          history.back();
-        });
-      </script>
     </html>
