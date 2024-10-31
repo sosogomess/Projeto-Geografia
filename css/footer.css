@@ -1,0 +1,25 @@
+footer {
+    background-image: url(../img/footer.png);
+    color: #fff;
+    height: 120px;
+    width: 100%;
+    margin-top: 2rem;
+}
+.rodape a img {
+    width: 20px; 
+    margin-left: 10px;
+}
+
+.site-footer {
+    background-color: rgba(233, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
