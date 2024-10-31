@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4; 
     color: #333;
 }
-
 
 header {
     background-color: #e90000;
@@ -20,7 +18,6 @@ header {
     align-items: center;
     color: white;
 }
-
 
 .logo img {
     width: 200px;
@@ -40,26 +37,22 @@ nav ul {
     justify-content: center;
 }
 
-
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-
 .search {
     display: flex;
     gap: 10px;
 }
-
 
 .search input {
     padding: 5px;
     border: none;
     border-radius: 3px;
 }
-
 
 .search button {
     padding: 5px 10px;
@@ -116,28 +109,6 @@ main {
 
 .itens a:hover {
     background-color: #A32020;
-}
-
-footer {
-    background-image: url(../img/footer.png);
-    color: #fff;
-    height: 120px;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.site-footer {
-    background-color: rgba(233, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
 }
 
 .rodape a img {

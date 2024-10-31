@@ -35,5 +35,5 @@ document.getElementById('submit').addEventListener('click', function() {
     });
 
 
-    document.getElementById('result').innerText = Você acertou ${totalCorrect} de ${questions.length} perguntas.;
+    document.getElementById('result').innerText = `Você acertou ${totalCorrect} de ${questions.length} perguntas.`;
 });

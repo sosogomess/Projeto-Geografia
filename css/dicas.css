@@ -4,20 +4,17 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4; 
     color: #333;
 }
 
-
 main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
-
 
 h2 {
     text-align: center;
@@ -51,48 +48,4 @@ h2 {
 .itens h3 {
     color: #d32f2f;
     margin-bottom: 10px;
-}
-
-
-footer {
-    background-image: url(../img/footer.png);
-    background-color: #D32F2F; 
-    padding: 10px;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120%;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-}
-
-
-.rodape a img {
-    width: 20px; 
-    margin-left: 10px;
-}
-
-.footer-background{
-    background-image: url(../img/footer.png);
-    color: #fff;
-    height: 120px;
-    width: 100%;
-    margin-top: 2rem;
-}
-.site-footer {
-    background-color: rgba(233, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
 }

@@ -6,6 +6,7 @@
     <title>Dicas</title>
     <link rel="stylesheet" href="css/dicas.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header>
@@ -14,23 +15,13 @@
         </div>
         <nav>
             <ul>
-<<<<<<< HEAD
-                   <li><a href="./../index.html">Home</a></li>
+                <li><a href="./../index.html">Home</a></li>
                 <li><a href="../noticias.html">Notícias Principais</a></li>
                 <li><a href="../simulados.html">Simulados</a></li>
                 <li><a href="../estagios.html">Carreiras</a></li>
                 <li><a href="../dicas.html">Dicas</a></li>
                 <li><a href="../sobre.html">Sobre Nós</a></li>
                 <li><a href="#">Matérias</a></li>
-=======
-                <li><a href="index.html">Home</a></li>
-                <li><a href="noticias.html">Notícias Principais</a></li>
-                <li><a href="simulados.html">Simulados</a></li>
-                <li><a href="estagios.html">Carreiras</a></li>
-                <li><a href="dicas.html">Dicas</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="disciplina.html">Matérias</a></li>
->>>>>>> 07a23d4f03a1d4150765174ef6d8c02db95f3f90
             </ul>
         </nav>
         <div class="search">
@@ -38,7 +29,6 @@
             <button id="searchButton">Buscar</button>
         </div>
     </header>
-
     <main>
         <section class="dicas">
             <h2>Dicas</h2>
@@ -78,7 +68,6 @@
             </div>
         </section>
     </main>
-
     <script>
         // Pega os elementos do HTML
         const searchButton = document.getElementById('searchButton');
@@ -102,19 +91,18 @@
                     window.location.href = item.href; // Redireciona para a página correspondente
                 }
             });
-
+            
             // Se não encontrar nenhum item, mostra um alerta
             if (!found) {
                 alert('Nenhum item encontrado');
             }
         });
     </script>
-    
-    <div class="footer-background">
-        <div class="site-footer">
-        </address>
+
+<footer>
+    <div class="site-footer">
         <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
     </div>
-    
+</footer>
 </body>
 </html>

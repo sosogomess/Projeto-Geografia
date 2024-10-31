@@ -7,6 +7,7 @@
     <title>SESI Amoreiras</title>
     <link rel="stylesheet" href="../css/estagio-model.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
@@ -16,17 +17,13 @@
         </div>
     </header>
     <div class="botãoVoltar">
-        <button id="backBtn">
-            <div class="imgVoltar"><img src="/img/voltar.webp" alt="Voltar"></div>
-        </button>
-
-        <script>
-            document.getElementById("backBtn").addEventListener("click", function () {
-                history.back();
-            });
-        </script>
+        <button id="backBtn"><div class="imgVoltar"><img src="/img/voltar.webp" alt="Voltar"></div></button>
+<script>
+  document.getElementById("backBtn").addEventListener("click", function(){
+    history.back();
+  });
+</script>
     </div>
-
     <main>
         <div class="container-principal">
             <div class="itens">
@@ -80,12 +77,10 @@
 
                 </h1>
     </main>
-
-    <div class="footer-background">
+    <footer>
         <div class="site-footer">
-            </address>
-            <p class="copy-info"><strong>&copy; 2024 - Todos os direitos reservados</p></strong>
+            <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
         </div>
+    </footer>
 </body>
-
 </html>
