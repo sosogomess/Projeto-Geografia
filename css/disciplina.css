@@ -20,7 +20,7 @@
 
 iframe {
     width: 100%;
-    height: 400px;
+    height: 800px;
     border: none;
 }
 
@@ -62,7 +62,6 @@ iframe {
 }
 
 main {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
