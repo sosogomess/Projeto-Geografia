@@ -10,25 +10,6 @@ body {
     color: #333;
 }
 
-.logo img {
-    width: 200px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 main {
     padding: 20px;
     text-align: center;
