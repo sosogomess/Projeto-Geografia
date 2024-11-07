@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estágios</title>
     <link rel="stylesheet" href="./css/estagios.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="img/sesi-senai-junto.png" alt="Logo SESI">
+            <a href="../index.html" target="_top">
+                <img src="../img/sesi-senai-junto.png" alt="Logo SESI">
+            </a>
         </div>
-        <nav id="menu">
+        <nav>
             <ul>
-                <li><a href="index.html">Home</a></li> 
+                <li><a href="index.html">Home</a></li>
                 <li><a href="noticias.html">Notícias Principais</a></li>
                 <li><a href="simulados.html">Simulados</a></li>
-                <li><a href="./simulados.html">Simulados</a></li>
                 <li><a href="estagios.html">Carreiras</a></li>
                 <li><a href="dicas.html">Dicas</a></li>
                 <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="disciplina.html">Matérias</a></li>
+                <li><a href="disciplina.html">Entrevistas</a></li>
             </ul>
         </nav>
         <div class="search">
@@ -62,13 +67,9 @@
                     <h3>Cartografia Digital</h3>
                     <a href="/estagios/cartografia.html">Ver Detalhes...</a>
                 </div>
-
-                
             </div>
-            </section>
+        </section>
     </main>
-
-
     <script>
         // Pega os elementos do HTML
         const searchButton = document.getElementById('searchButton');
@@ -76,16 +77,16 @@
         const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
 
         // Adiciona evento de clique no botão de busca
-        searchButton.addEventListener('click', function() {
+        searchButton.addEventListener('click', function () {
             const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
 
             // Variável para armazenar se encontrou ou não
             let found = false;
 
             // Itera sobre os itens do menu
-            menuItems.forEach(function(item) {
+            menuItems.forEach(function (item) {
                 const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
-                
+
                 // Verifica se o texto do menu contém o termo de busca
                 if (menuItemText.includes(searchTerm)) {
                     found = true; // Marca como encontrado
@@ -99,13 +100,11 @@
             }
         });
     </script>
-
-
-
-<footer>
-    <div class="site-footer">
-        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
-    </div>
-</footer>
+    <footer>
+        <div class="site-footer">
+            <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
+
 </html>

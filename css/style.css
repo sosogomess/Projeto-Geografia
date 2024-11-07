@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; 
+    background-color: #ffffff; 
     color: #333;
 }
 
@@ -16,6 +16,13 @@ body {
     margin-top: 10px;
     font-size: 16px;
     color: #333;
+}
+h1 {
+    text-align: center;
+    padding: 0;
+    color: #e90000;
+    margin-top: 0;
+    padding: 3vh;
 }
 
 h2 {
@@ -59,29 +66,6 @@ h3 {
 
 .Sobre-Nós {
     margin-top: 40px;
-}
-
-
-footer {
-    background-image: url(../img/footer.png);
-    color: #fff;
-    height: 120px;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.site-footer {
-    background-color: rgba(233, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
 }
 
 .container-grupo {

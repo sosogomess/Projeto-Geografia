@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; 
+    background-color: #ffffff; 
 }
 
 .conteudo {
@@ -16,14 +16,13 @@ body {
     padding: 20px;
 }
 
-
 .itens {
     background-color: white;
     padding: 20px;
     border-radius: 8px; 
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 .itens img {
     width: 100%; 
@@ -31,8 +30,6 @@ body {
     height: 25rem; 
     object-fit: cover; 
 }
-
-
 
 .itens h3 {
     margin-top: 30px;
@@ -44,25 +41,7 @@ body {
     width: 20px; 
     margin-left: 10px;
 }
-footer {
-    background-image: url(../img/footer.png);
-    color: #fff;
-    height: 120px;
-    width: 100%;
-    margin-top: 2rem;
+.rodape a img {
+    width: 20px; 
+    margin-left: 10px;
 }
-
-.site-footer {
-    background-color: rgba(233, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-}
-

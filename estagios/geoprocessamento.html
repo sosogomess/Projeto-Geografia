@@ -4,49 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geoprocessamento</title>
-    <link rel="stylesheet" href="../css/estagios2.css">
+    <link rel="stylesheet" href="../css/estagio-model.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="../img/sesi-senai-junto.png" alt="SESI SENAI Logo">
+            <a href="../index.html" target="_top">
+                <img src="../img/sesi-senai-junto.png" alt="Logo SESI">
+            </a>     
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../noticias.html">Notícias Principais</a></li>
+                <li><a href="../simulados.html">Simulados</a></li>
+                <li><a href="../estagios.html">Estágios</a></li>
+                <li><a href="../dicas.html">Dicas</a></li>
+                <li><a href="../sobre.html">Sobre Nós</a></li>
+                <li><a href="#">Entrevistas</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="O que você está buscando?">
+            <button id="searchButton">Buscar</button>
         </div>
     </header>
 
-    <div class="botãoVoltar">
-        <button id="backBtn"><div class="imgVoltar"><img src="/img/voltar.webp" alt="Voltar"></div></button>
-<script>
-  document.getElementById("backBtn").addEventListener("click", function(){
-    history.back();
-  });
-</script>
-    </div>
-
-    </header>
-
     <main>
-        <section class="vaga-info">
-            <img src="/img/geoprocessamento1.jpg" alt="Geoprocessamento">
-            <h2>Geoprocessamento</h2>
+        <div class="container-principal">
+            <div class="itens">
+                <h1 class="sobre">
+                    <h2>Geoprocessamento</h2>
+                    <div class="foto-central">
+                        <img class="img-central" src="/img/geoprocessamento1.jpg" alt="Geoprocessamento">
+                    </div>
 
-            <p>Uma faculdade destacada na formação de profissionais em geoprocessamento é a Universidade Federal do Paraná (UFPR), com seu curso de Engenharia Cartográfica e de Agrimensura. 
-<br><br>
-                A profissão em geoprocessamento envolve a coleta, análise e interpretação de dados geoespaciais, utilizando ferramentas como Sistemas de Informação Geográfica (SIG). Os profissionais dessa área trabalham em:
-                <br><br>
-                <strong> 1. Análise Territorial:</strong> Estudam padrões espaciais para planejamento urbano e rural. <br>
-                <strong> 2. Cartografia:</strong> Produzem mapas e representações geográficas. <br>
-                <strong> 3. Monitoramento Ambiental:</strong> Acompanham mudanças no meio ambiente. <br>
-                <strong> 4. Planejamento e Gestão:</strong> Contribuem para políticas públicas e gestão de recursos. <br>
-                <br><br>
-                Atuando em setores públicos e privados, esses especialistas são essenciais para a gestão sustentável do espaço geográfico e a tomada de decisões informadas. A demanda por geoprocessadores tem crescido com o avanço das tecnologias de informação.</p>
-            
-        </section>
+                    <p>Uma faculdade destacada na formação de profissionais em geoprocessamento é a Universidade Federal do Paraná (UFPR), com seu curso de Engenharia Cartográfica e de Agrimensura. 
+
+                        A profissão em geoprocessamento envolve a coleta, análise e interpretação de dados geoespaciais, utilizando ferramentas como Sistemas de Informação Geográfica (SIG). Os profissionais dessa área trabalham em:
+
+                    <ol class="container-list">
+                        <li>
+                            <p><strong>Análise Territorial:</strong> Estudam padrões espaciais para planejamento urbano e rural.</p>
+                        </li>
+                        <li>
+                            <p><strong>Cartografia:</strong> Produzem mapas e representações geográficas.</p>
+                        </li>
+                        <li>
+                            <p><strong>Monitoramento Ambiental:</strong> Acompanham mudanças no meio ambiente.</p>
+                        </li>
+                        <li>
+                            <p><strong>Planejamento e Gestão:</strong> Contribuem para políticas públicas e gestão de recursos.</p>
+                        </li>
+                    </ol>
+
+            <p>Atuando em setores públicos e privados, esses especialistas são essenciais para a gestão sustentável do espaço geográfico e a tomada de decisões informadas. A demanda por geoprocessadores tem crescido com o avanço das tecnologias de informação.</p>
+
     </main>
-
-    <div class="footer-background">
+    <footer>
         <div class="site-footer">
-        </address>
-        <p class="copy-info"><strong>&copy; 2024 - Todos os direitos reservados</p></strong>
-    </div>
+            <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
