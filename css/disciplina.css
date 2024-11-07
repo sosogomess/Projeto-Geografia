@@ -60,3 +60,10 @@ iframe {
 .ver-mais:hover {
     background-color: #ff0000;
 }
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
