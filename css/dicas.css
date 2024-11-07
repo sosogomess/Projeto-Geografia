@@ -40,9 +40,9 @@ h2 {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 15rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
-    height: auto;
+    height: 16rem;
 }
 
 .itens img {
