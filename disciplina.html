@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="css/dicas.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/disciplina.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="img/sesi-senai-junto.png" alt="Logo SESI">
+            <a href="../index.html" target="_top">
+                <img src="../img/sesi-senai-junto.png" alt="Logo SESI">
+            </a>     
         </div>
         <nav>
             <ul>
@@ -31,7 +34,56 @@
     </header>
 
     <main>
-       
+        <section class="Titulo-da-pagina">
+            <h2>Entrevista com o professor Guilherme Menna do SeSi299 de Valinhos</h2>
+        </section>
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <!-- Slides de vídeos -->
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/yLetFSFEjBM?si=2aGu05uTjkzl01ao" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/tB3JIzMhupQ?si=MRA2Evna1RUShyAM" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/tBFAoKp87wA?si=UxdSKQEGzaYCJdNp" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/UT6qgwjRgH8?si=RR6KRMUK0hiwG7Hv" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/-gSwLqWAJHI?si=K7fGNiJnsoXCpXyo" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/LRTGZveu79I?si=3FthSLcSSMVmbWyH" allowfullscreen></iframe>
+                </div>
+            </div>
+    
+            <!-- Botões de navegação -->
+            <button class="carousel-control carousel-control-prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-control carousel-control-next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    
+        <!-- Link para o YouTube -->
+        <a href="https://www.youtube.com" target="_blank" class="ver-mais">Ver mais</a>
+    
+        <!-- Script JavaScript para a funcionalidade do carrossel -->
+        <script>
+            let currentIndex = 0;
+    
+            function moveSlide(step) {
+                const slides = document.querySelectorAll('.carousel-item');
+                const totalSlides = slides.length;
+    
+                // Calculando o novo índice
+                currentIndex = (currentIndex + step + totalSlides) % totalSlides;
+    
+                // Movendo o carrossel
+                const carouselWrapper = document.querySelector('.carousel-wrapper');
+                carouselWrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+        </script> 
     </main>
 
     <script>
