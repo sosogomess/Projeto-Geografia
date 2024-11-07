@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('./../img/fundohome.png');
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -62,6 +62,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
+    gap: 1rem;
 }
 
 .container-noticias-main{
@@ -80,4 +81,22 @@ button:hover {
 
 #ww_53d59aa64c42e{
     border-radius: 1rem !important;
+}
+
+.itens img {
+    width: 15%;
+    border-radius: 1rem;
+}
+
+.itens h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.itens {
+    padding: 1rem;
+}
+
+.itens a {
+    display: flex;
 }
