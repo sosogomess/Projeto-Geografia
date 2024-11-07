@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -31,8 +31,34 @@ body {
     max-width: 1200px; 
 }
 
-.card {
+.card1 {
     background-color: #D41A1A;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 22%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card2 {
+    background-color: #8d1010;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 22%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card3 {
+    background-color: #D41A1A;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 22%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card4 {
+    background-color: #790f0f;
     color: #fff;
     padding: 3rem;
     border-radius: 10px;
@@ -45,7 +71,28 @@ body {
     font-size: 1rem;
 }
 
-.card p {
+.card1 p {
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover{
+    transition: 0.4s ease;
+    transform: scale(1.1);
+} 
+
+.card2 p {
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+.card3 p {
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+.card4 p {
     line-height: 1.5rem;
     text-align: justify;
     margin-top: 1rem;
@@ -69,28 +116,6 @@ body {
 
 .button:hover {
     background-color: #a30a0a; 
-}
-
-footer {
-    background-image: url(../img/footer.png);
-    color: #fff;
-    height: 120px;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.site-footer {
-    background-color: rgba(233, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    height: 120px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
 }
 
 .rodape a img {

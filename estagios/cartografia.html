@@ -1,50 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartografia</title>
-    <link rel="stylesheet" href="../css/estagios2.css">
+    <link rel="stylesheet" href="../css/estagio-model.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="../img/sesi-senai-junto.png" alt="SESI SENAI Logo">
+            <a href="../index.html" target="_top">
+                <img src="../img/sesi-senai-junto.png" alt="Logo SESI">
+            </a>     
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../noticias.html">Notícias Principais</a></li>
+                <li><a href="../simulados.html">Simulados</a></li>
+                <li><a href="../estagios.html">Estágios</a></li>
+                <li><a href="../dicas.html">Dicas</a></li>
+                <li><a href="../sobre.html">Sobre Nós</a></li>
+                <li><a href="#">Matérias</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="O que você está buscando?">
+            <button id="searchButton">Buscar</button>
         </div>
     </header>
-    <div class="botãoVoltar">
-        <button id="backBtn"><div class="imgVoltar"><img src="/img/voltar.webp" alt="Voltar"></div></button>
-<script>
-  document.getElementById("backBtn").addEventListener("click", function(){
-    history.back();
-  });
-</script>
-    </div>
-    </header>
     <main>
-        <section class="vaga-info">
-            <img src="/img/cartografia1.webp" alt="Cartografia">
-            <h2>Cartografia</h2>
+        <div class="container-principal">
+            <div class="itens">
+                <h1 class="sobre">
+                    <h2>Cartografia</h2>
+                    <div class="foto-central">
+                        <img class="img-central" src="/img/cartografia1.webp" alt="Cartografia">
+                    </div>
 
-            <p>Uma faculdade que oferece cursos na área de cartografia digital é a Universidade Federal de Minas Gerais (UFMG), que possui um curso de Geografia com ênfase em Geoprocessamento e Cartografia.
-<br>
-                A profissão de cartógrafo digital envolve a criação, análise e interpretação de mapas digitais e dados geoespaciais. Os cartógrafos digitais utilizam software especializado para produzir mapas que podem ser utilizados em diversas áreas, como planejamento urbano, gestão ambiental, transporte e até mesmo em jogos eletrônicos.
-                
-                As principais atividades de um profissional de cartografia digital incluem:
-                <strong> 1. Coleta de Dados:</strong> Obter informações geográficas através de tecnologias como GPS, sensoriamento remoto e levantamento de campo.
-                <strong> 2. Análise de Dados:</strong> Interpretar e analisar dados geoespaciais para resolver problemas específicos ou responder a questões de pesquisa.
-                <strong> 3. Produção de Mapas:</strong> Criar mapas digitais que representem informações geográficas de forma clara e eficaz, utilizando softwares como ArcGIS, QGIS, entre outros.
-                <strong> 4. Desenvolvimento de Sistemas:</strong> Trabalhar em sistemas de informação geográfica (SIG) que permitem a visualização e análise de dados espaciais.
-    
-                <strong> 5. Consultoria:</strong> Oferecer serviços de consultoria em projetos que requerem análise espacial, como planejamento territorial e gestão de recursos naturais.
-                <br><br>
-                A demanda por profissionais nessa área tem crescido, especialmente com o aumento do uso de tecnologias geográficas em diversos setores.</p>      
-        </section>
+                    <p>Uma faculdade que oferece cursos na área de cartografia digital é a Universidade Federal de Minas
+                        Gerais (UFMG), que possui um curso de Geografia com ênfase em Geoprocessamento e Cartografia.
+                        A profissão de cartógrafo digital envolve a criação, análise e interpretação de mapas digitais e
+                        dados geoespaciais. Os cartógrafos digitais utilizam software especializado para produzir mapas
+                        que podem ser utilizados em diversas áreas, como planejamento urbano, gestão ambiental,
+                        transporte e até mesmo em jogos eletrônicos.
+
+                        As principais atividades de um profissional de cartografia digital incluem:
+
+                    <ol class="container-list">
+                        <li>
+                            <p><strong>Coleta de Dados:</strong> Obter informações geográficas através de tecnologias como GPS, sensoriamento
+                                remoto e levantamento de campo.</p> 
+                        </li>
+
+                        <li>
+                        <p><strong>Análise de Dados:</strong> Interpretar e analisar dados geoespaciais para resolver
+                            problemas específicos ou responder a questões de pesquisa.</p>
+                        </li>
+
+                        <li>
+                            <p><strong>Produção de Mapas:</strong> Criar mapas digitais que representem informações
+                                geográficas de forma clara e eficaz, utilizando softwares como ArcGIS, QGIS, entre outros.</p>
+                        </li>
+
+                        <li>
+                            <p><strong>Desenvolvimento de Sistemas:</strong> Trabalhar em sistemas de informação
+                                geográfica (SIG) que permitem a visualização e análise de dados espaciais.</p>
+                        </li>
+
+                        <li>
+                            <p><strong>Consultoria:</strong> Oferecer serviços de consultoria em projetos que requerem
+                                análise espacial, como planejamento territorial e gestão de recursos naturais.</p>
+                        </li>
+                        </ol>
+
+
+                        <p>A demanda por profissionais nessa área tem crescido, especialmente com o aumento do uso de
+                            tecnologias geográficas em diversos setores.</p>
+
     </main>
-    <div class="footer-background">
+    <footer>
         <div class="site-footer">
-        </address>
-        <p class="copy-info"><strong>&copy; 2024 - Todos os direitos reservados</p></strong>
-    </div>
+            <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
+
 </html>

@@ -6,11 +6,14 @@
     <title>Vôlei</title>
     <link rel="stylesheet" href="../css/noticia-model.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="./../img/sesi-senai-junto.png" alt="Logo SESI">
+            <a href="../index.html" target="_top">
+                <img src="../img/sesi-senai-junto.png" alt="Logo SESI">
+            </a>     
         </div>
         <nav>
             <ul>
@@ -43,18 +46,15 @@
         </div>
         </div>
         </div>
-     
-
-        <div class="footer-background">
+        <script>
+            document.getElementById("backBtn").addEventListener("click", function(){
+              history.back();
+            });
+          </script>
+           <footer>
             <div class="site-footer">
-            </address>
-            <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
-        </div>
+                <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+            </div>
+        </footer>
     </body>
-
-    <script>
-        document.getElementById("backBtn").addEventListener("click", function(){
-          history.back();
-        });
-      </script>
     </html>
