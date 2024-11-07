@@ -55,6 +55,7 @@ iframe {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    gap: 1rem;
 }
 
 .ver-mais:hover {
@@ -65,4 +66,8 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
+}
+
+.descripition-page {
+    margin-top: 1rem;
 }
