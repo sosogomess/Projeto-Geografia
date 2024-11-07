@@ -28,7 +28,6 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    position: fixed; /* Footer fixo no final */
     bottom: 0;
     left: 0;
 }
@@ -126,3 +125,4 @@ p {
     justify-content: center;
     align-items: center;
 }
+
