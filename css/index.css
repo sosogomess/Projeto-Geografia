@@ -56,3 +56,28 @@ button:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 3rem;
 }
+
+
+.container-secundario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.container-noticias-main{
+    background-color: orange;
+    width: 70%;
+}
+
+.container-aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#ww_53d59aa64c42e{
+    border-radius: 1rem !important;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
             <a href="../index.html" target="_top">
                 <img src="../img/sesi-senai-junto.png" alt="Logo SESI">
-            </a>     
+            </a>
         </div>
         <nav>
             <ul>
@@ -35,43 +37,70 @@
         <div class="container-principal">
             <h1>Geografia</h1>
             <p>Descubra as maravilhas do nosso planeta!</p>
-            <iframe src="./carrossel/carrousel.html" width="100%" height="700px" frameborder="0"></iframe> 
+            <iframe src="./carrossel/carrousel.html" width="100%" height="700px" frameborder="0"></iframe>
+
+            <div class="container-secundario">
+                <div class="container-noticias-main">
+    
+                </div>
+    
+                <div class="container-aside">
+                    <div id="ww_53d59aa64c42e" v='1.3' loc='id'
+                        a='{"t":"horizontal","lang":"pt","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#D32F2F","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#FFFFFF","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FFFFFF"}'>
+                        Fonte de dados meteorológicos: <a href="https://wetterlang.de" id="ww_53d59aa64c42e_u"
+                            target="_blank">Wetter 30 tage</a></div>
+                    <script async src="https://app3.weatherwidget.org/js/?id=ww_53d59aa64c42e"></script>
+                    <!-- clock widget start -->
+                    <script
+                        type="text/javascript"> var css_file = document.createElement("link"); css_file.setAttribute("rel", "stylesheet"); css_file.setAttribute("type", "text/css"); css_file.setAttribute("href", "https://s.bookcdn.com//css/cl/bw-cl-sm1.css?v=0.0.1"); document.getElementsByTagName("head")[0].appendChild(css_file); </script>
+                    <div id="tw_24_1325275384">
+                        <div style="width:200px; height:px; margin: 0 auto;"><a
+                                href="https://ibooked.com.br/time/brasilia-14704">Brasília</a><br /></div>
+                    </div>
+                    <script
+                        type="text/javascript"> function setWidgetData_1325275384(data) { if (typeof (data) != 'undefined' && data.results.length > 0) { for (var i = 0; i < data.results.length; ++i) { var objMainBlock = ''; var params = data.results[i]; objMainBlock = document.getElementById('tw_' + params.widget_type + '_' + params.widget_id); if (objMainBlock !== null) objMainBlock.innerHTML = params.html_code; } } } var clock_timer_1325275384 = -1; widgetSrc = "https://widgets.booked.net/time/info?ver=2;domid=585;type=24;id=1325275384;scode=124;city_id=;wlangid=8;mode=1;details=0;background=ffffff;border_color=ffffff;color=000000;add_background=ffffff;add_color=333333;head_color=ffffff;border=1;transparent=0"; var widgetUrl = location.href; widgetSrc += '&ref=' + widgetUrl; var wstrackId = ""; if (wstrackId) { widgetSrc += ';wstrackId=' + wstrackId + ';' } var timeBookedScript = document.createElement("script"); timeBookedScript.setAttribute("type", "text/javascript"); timeBookedScript.src = widgetSrc; document.body.appendChild(timeBookedScript); </script>
+                    <!-- clock widget end -->
+                </div>
+            </div>
         </div>
+
+      
     </main>
-    <script>
-        // Pega os elementos do HTML
-        const searchButton = document.getElementById('searchButton');
-        const searchInput = document.getElementById('searchInput');
-        const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
 
-        // Adiciona evento de clique no botão de busca
-        searchButton.addEventListener('click', function() {
-            const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
+    <footer>
+        <div class="site-footer">
+            <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+<script>
+    // Pega os elementos do HTML
+    const searchButton = document.getElementById('searchButton');
+    const searchInput = document.getElementById('searchInput');
+    const menuItems = document.querySelectorAll('#menu a'); // Seleciona todos os links do menu
 
-            // Variável para armazenar se encontrou ou não
-            let found = false;
+    // Adiciona evento de clique no botão de busca
+    searchButton.addEventListener('click', function () {
+        const searchTerm = searchInput.value.toLowerCase(); // Pega o valor da busca e converte para minúsculas
 
-            // Itera sobre os itens do menu
-            menuItems.forEach(function(item) {
-                const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
-                
-                // Verifica se o texto do menu contém o termo de busca
-                if (menuItemText.includes(searchTerm)) {
-                    found = true; // Marca como encontrado
-                    window.location.href = item.href; // Redireciona para a página correspondente
-                }
-            });
+        // Variável para armazenar se encontrou ou não
+        let found = false;
 
-            // Se não encontrar nenhum item, mostra um alerta
-            if (!found) {
-                alert('Nenhum item encontrado');
+        // Itera sobre os itens do menu
+        menuItems.forEach(function (item) {
+            const menuItemText = item.textContent.toLowerCase(); // Pega o texto do link e converte para minúsculas
+
+            // Verifica se o texto do menu contém o termo de busca
+            if (menuItemText.includes(searchTerm)) {
+                found = true; // Marca como encontrado
+                window.location.href = item.href; // Redireciona para a página correspondente
             }
         });
-    </script>
-   <footer>
-    <div class="site-footer">
-        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
-    </div>
-</footer>
-</body>
+
+        // Se não encontrar nenhum item, mostra um alerta
+        if (!found) {
+            alert('Nenhum item encontrado');
+        }
+    });
+</script>
 </html>
