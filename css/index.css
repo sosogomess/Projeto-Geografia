@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    /* text-decoration: none;  */
 }
 
 body {
@@ -100,3 +101,11 @@ button:hover {
 .itens a {
     display: flex;
 }
+
+.itens p {
+    font-size: 1.2rem;
+    font-style: italic;
+    gap: 1rem;
+    text-decoration: none; 
+}
+
