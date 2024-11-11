@@ -47,11 +47,11 @@ main button {
 }
 
 button:hover {
-    background-color: red;    
+    background-color: red;
     transition: all 0.25s;
 }
 
-.container-principal{
+.container-principal {
     background-color: rgba(255, 255, 255, 0.616);
     border-radius: 5rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -59,19 +59,19 @@ button:hover {
 }
 
 
-.container-secundario{
+.container-secundario {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
     gap: 1rem;
 }
 
-.container-noticias-main{
-    background-color: orange;
+.container-noticias-main {
+    background-color: #ffffff;
     width: 70%;
 }
 
-.container-aside{
+.container-aside {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ button:hover {
     gap: 1rem;
 }
 
-#ww_53d59aa64c42e{
+#ww_53d59aa64c42e {
     border-radius: 1rem !important;
 }
 
@@ -96,6 +96,10 @@ button:hover {
 
 .itens {
     padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    background-color: #ffffff;
+    margin-bottom: 1rem;
 }
 
 .itens a {
@@ -106,6 +110,38 @@ button:hover {
     font-size: 1.2rem;
     font-style: italic;
     gap: 1rem;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
+
+.quadrado {
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    background-color: #ffffff;
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    gap: 1rem;
+}
+
+.quadrado img {
+    width: 100%;
+    height: 60%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.quadrado h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.quadrado p {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+}
