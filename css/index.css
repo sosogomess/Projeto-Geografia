@@ -87,6 +87,7 @@ button:hover {
 .itens img {
     width: 15%;
     border-radius: 1rem;
+    margin-right: 1rem;
 }
 
 .itens h3 {
@@ -124,6 +125,7 @@ button:hover {
     display: inline-block;
     vertical-align: top;
     gap: 1rem;
+    margin-left: 12rem;
 }
 
 .quadrado img {
@@ -160,4 +162,45 @@ button:hover {
     height: auto;
     margin-top: 5rem;
     
+}
+
+.not1 {
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    background-color: #ffffff;
+}
+
+.not2 {
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    background-color: #ffffff;
+}
+
+.not3 {
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    background-color: #ffffff;
+}
+
+.escrito p {
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+.escrito h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.escrito h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    
+    margin: 1rem;
 }
