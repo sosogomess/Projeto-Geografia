@@ -84,34 +84,58 @@ button:hover {
     border-radius: 1rem !important;
 }
 
-.itens img {
-    width: 15%;
-    border-radius: 1rem;
-    margin-right: 1rem;
+.itens:hover {
+    transition: 0.5s ease;
+    color: aquamarine;
 }
 
 .itens h3 {
     font-size: 1.5rem;
-    font-weight: bold;
+    color: #e90000;
+    text-decoration: none;
 }
 
 .itens {
-    padding: 1rem;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
     background-color: #ffffff;
-    margin-bottom: 1rem;
+    width: 100%;
 }
 
+.letras{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.div-img{
+    width: 40%;
+}
+.div-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 .itens a {
     display: flex;
+    text-decoration: none;
+    width: 100%;
 }
 
 .itens p {
-    font-size: 1.2rem;
-    font-style: italic;
+    font-size: 0.9rem;
+    font-style: arial;
     gap: 1rem;
     text-decoration: none;
+    color: black;
 }
 
 
@@ -126,6 +150,7 @@ button:hover {
     vertical-align: top;
     gap: 1rem;
     margin-left: 12rem;
+    text-decoration: none;
 }
 
 .quadrado img {
@@ -138,12 +163,13 @@ button:hover {
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
+    color: #e90000;
     text-decoration: none;
 }
 
 .quadrado p {
     font-size: 0.8rem;
-    font-style: italic;
+    font-style:arial;
     text-align: center;
     text-decoration: none;
 }
@@ -204,3 +230,20 @@ button:hover {
     
     margin: 1rem;
 }
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    border: solid #ff0808 1.5px;
+    text-decoration: none;
+    width: 10rem !important;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
