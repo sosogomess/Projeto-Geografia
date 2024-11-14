@@ -71,3 +71,8 @@ main {
 .descripition-page {
     margin-top: 1rem;
 }
+
+.descripition-page {
+    text-align: justify;
+    line-height: 1.5rem;
+}
