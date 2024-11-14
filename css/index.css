@@ -69,13 +69,19 @@ button:hover {
 .container-noticias-main {
     background-color: #ffffff;
     width: 70%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .container-aside {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 1rem;
 }
@@ -146,10 +152,10 @@ button:hover {
     width: 15rem;
     height: 15rem;
     margin-bottom: 1rem;
-    display: inline-block;
     vertical-align: top;
     gap: 1rem;
     margin-left: 1rem;
+    
 }
 
 .quadrado img {
@@ -246,3 +252,14 @@ button:hover {
   .btn:hover {
     text-decoration: none;
   }
+
+.itens-sec{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.0rem;
+    text-decoration: none;
+}
