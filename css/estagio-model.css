@@ -9,34 +9,6 @@ body {
     background-color: #ffffff; 
 }
 
-.logo img {
-    width: 200px;
-    height: auto;
-}
-
-footer {
-    background-image: url(../img/footer.png);
-    background-color: #D32F2F; 
-    padding: 10px;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120px;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    bottom: 0;
-    left: 0;
-}
-
-.rodape a img {
-    width: 20px; 
-    margin-left: 10px;
-}
-
 .footer-background{
     background-image: url(../img/footer.png);
     color: #fff;
@@ -80,17 +52,6 @@ p {
     display: flex;
     flex-direction: column;
     width: 512px;  
-}
-
-.imgVoltar {
-    width: 20px;
-    height: 20px;
-    display: flex;
-}
-
-.sonhos {
-    text-align: center;
-    color: rgba(0, 0, 0, 0.308);
 }
 
 .itens {
