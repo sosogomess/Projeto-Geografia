@@ -7,7 +7,7 @@
 
 header {
     background-color: #e90000;
-    padding: 20px;
+    padding: 1.25rem;
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
@@ -16,7 +16,7 @@ header {
 }
 
 .logo img {
-    max-width: 250px;
+    max-width: 15.625rem;
     height: auto;
 }
 
@@ -27,33 +27,33 @@ nav ul {
 }
 
 nav ul li {
-    margin: 10px;
+    margin: 1rem;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .search {
     display: flex;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .search input {
-    padding: 10px;
+    padding: 1rem;
     border: none;
-    border-radius: 3px;
+    border-radius: 0.2rem;
 }
 
 .search button {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background-color: #F44336; 
     border: none;
     color: white;
     cursor: pointer;
-    border-radius: 3px; 
+    border-radius: 0.3rem; 
 }
