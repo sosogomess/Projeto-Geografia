@@ -28,16 +28,16 @@ h2 {
     color: #757575;
     margin-top: 0;
     padding: 0;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .equipe {
     display: flex;
     width: 100%;
-    padding: 50px;
+    padding: 3.125rem;
     justify-content:space-around;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .membro {
@@ -52,18 +52,18 @@ h2 {
 }
 
 .imagem-membro {
-    width: 150px;
+    width: 9.375rem;
     height: auto;
     border-radius: 90%;
 }
 
 h3 {
     color: #e90000;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .Sobre-Nós {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .container-grupo {

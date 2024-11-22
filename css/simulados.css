@@ -28,42 +28,42 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%; 
-    max-width: 1200px; 
+    max-width: 75rem; 
 }
 
 .card1 {
     background-color: #D41A1A;
     color: #fff;
     padding: 3rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 22%; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 .card2 {
     background-color: #8d1010;
     color: #fff;
     padding: 3rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 22%; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 .card3 {
     background-color: #D41A1A;
     color: #fff;
     padding: 3rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 22%; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 .card4 {
     background-color: #790f0f;
     color: #fff;
     padding: 3rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 22%; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 .card h2 {
@@ -99,7 +99,7 @@ body {
 }
 
 .button-container {
-    margin-top: 40px; 
+    margin-top: 2.5rem; 
     text-align: center;
     width: 100%; 
 }
@@ -109,7 +109,7 @@ body {
     color: white; 
     padding: 0.8rem; 
     text-decoration: none; 
-    font-size: 18px; 
+    font-size: 1.125rem; 
     transition: background-color 0.3s ease; 
     border-radius: 0.7rem;
 }
@@ -119,6 +119,6 @@ body {
 }
 
 .rodape a img {
-    width: 20px; 
-    margin-left: 10px;
+    width: 1.25rem; 
+    margin-left: 0.625rem;
 }

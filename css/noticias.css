@@ -12,36 +12,36 @@ body {
 .conteudo {
     display: grid; 
     grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    padding: 20px;
+    gap: 1.25rem; 
+    padding: 1.25rem;
 }
 
 .itens {
     background-color: white;
-    padding: 20px;
-    border-radius: 8px; 
+    padding: 1.25rem;
+    border-radius: 0.5rem; 
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.313rem 0.938rem;
 }
 
 .itens img {
     width: 100%; 
-    border-radius: 8px; 
+    border-radius: 0.5rem; 
     height: 25rem; 
     object-fit: cover; 
 }
 
 .itens h3 {
-    margin-top: 30px;
-    font-size: 16px;
-    color: #333;
+    margin-top: 1.875rem;
+    font-size: 1rem;
+    color: #000000;
 }
 
 .rodape a img {
-    width: 20px; 
-    margin-left: 10px;
+    width: 1.25rem; 
+    margin-left: 0.625rem;
 }
 .rodape a img {
-    width: 20px; 
-    margin-left: 10px;
+    width: 1.25rem; 
+    margin-left: 0.625rem;
 }

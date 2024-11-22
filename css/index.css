@@ -17,7 +17,7 @@ button {
     color: white;
     padding: 0.25rem 0.5rem;
     border-radius: 0.5rem;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 0.125rem 0.125rem 0.625rem gray;
     cursor: pointer;
 }
 
@@ -42,7 +42,7 @@ main button {
     margin: 5rem 0;
     padding: 1rem;
     border-radius: 0.7rem;
-    box-shadow: 2px 2px 8px black;
+    box-shadow: 0.125rem 0.125rem 0.5rem black;
     cursor: pointer;
 }
 
@@ -60,7 +60,7 @@ button:hover {
 .container-principal {
     background-color: rgba(255, 255, 255, 0.616);
     border-radius: 5rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.313rem 0.938rem;
     padding: 3rem;
 }
 
@@ -109,7 +109,7 @@ button:hover {
 
 .itens {
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.384) 0rem 0.313rem 0.938rem;
     background-color: #ffffff;
     width: 100%;
 }
@@ -153,7 +153,7 @@ button:hover {
 
 .quadrado {
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 0.313rem 0.938rem;
     background-color: #ffffff;
     width: 15rem;
     height: 15rem;
@@ -193,7 +193,7 @@ button:hover {
 
 .publicidade {
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 0.313rem 0.938rem;
     background-color: #ffffff;
     width: 50%;
     height: auto;
@@ -203,19 +203,19 @@ button:hover {
 
 .not1 {
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 0.313rem 0.938rem;
     background-color: #ffffff;
 }
 
 .not2 {
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 0.313rem 0.938rem;
     background-color: #ffffff;
 }
 
 .not3 {
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.384) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 0.313rem 0.938rem;
     background-color: #ffffff;
 }
 
@@ -245,11 +245,11 @@ button:hover {
 .btn {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
-    border-radius: 28px;
+    border-radius: 1.75rem;
     font-family: Georgia;
     color: #000000;
-    font-size: 12px;
-    padding: 10px 20px 10px 20px;
+    font-size: 0.75rem;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
     border: solid #ff0808 1.5px;
     text-decoration: none;
     width: 10rem !important;
