@@ -1,10 +1,10 @@
 .carousel-container {
     width: 100%;
-    max-width: 800px;
+    max-width: 50rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 .carousel-wrapper {
@@ -20,7 +20,7 @@
 
 iframe {
     width: 100%;
-    height: 400px;
+    height: 25rem;
     border: none;
 }
 
@@ -31,30 +31,30 @@ iframe {
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 10px;
-    font-size: 24px;
+    padding: 0.625rem;
+    font-size: 1.5rem;
     cursor: pointer;
     border: none;
 }
 
 .carousel-control-prev {
-    left: 10px;
+    left: 0.625rem;
 }
 
 .carousel-control-next {
-    right: 10px;
+    right: 0.625rem;
 }
 
 /* Estilo do botão "Ver mais" */
 .ver-mais {
     display: block;
-    margin: 30px auto 0;
+    margin: 1.875rem auto 0;
     text-align: center;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     background-color: #ff0000;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     gap: 1rem;
 }
 
