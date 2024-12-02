@@ -1,4 +1,4 @@
-https://sosogomess.github.io/Projeto-Geografia/
+https://projeto-geografia.vercel.app/index.html
 
 # Portal de Materiais - Geografia 🌍 
 Este é o nosso **projeto final da disciplina de Projetos**, um site dedicado ao estudo da Geografia, com o objetivo de fornecer aos estudantes e entusiastas da área conteúdos informativos, simulados e dicas úteis para facilitar o aprendizado e o desenvolvimento no campo geográfico.
